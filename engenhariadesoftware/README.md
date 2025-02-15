@@ -11,7 +11,7 @@ O que é Engenharia de Software? (professor)
 Engenharia envolve programação, tempo, escala e tradeoff.
 
 3 - tradeoff(troca):
-- Java é mais lento que C devido a sua complexidade e é uma linguagem de meio termo para alto nível longe do nível de máquina, porém necessitou a troca de uma aplicação rápida por portabilidade através da JVM.
+- Java é mais lento que a linguagem C devido a sua complexidade e é uma linguagem longe do baixo nível, porém necessitou a troca de uma aplicação rápida por portabilidade através da JVM.
 - Python usa C para operações aritméticas e matemáticas, pois o python tem a missão de trazer algo mais fácil de desenvolver, porém trocou a complicação por facilidade e rapidez.
 - 
 
