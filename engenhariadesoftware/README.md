@@ -17,7 +17,9 @@ Engenharia envolve programação, tempo, escala e tradeoff.
 
 # Atividade 1 (ANDAMENTO)
 ## 1 - Programming Over Time
-Comentário: O trecho do livro descreve que a profissão engenheiro de software e as empresas buscam sempre evoluir e adaptar os códigos de seus programas, pois com tempo há mudanças tanto leves ou bruscas. Além de demonstrar a importância de tornar os códigos sustentáveis, escaláveis e prolongados.
+
+Comentário: O trecho do livro descreve a profissão de engenheiro de software e como as empresas buscam a evolução e a adaptação dos códigos de seus programas, já que, com o tempo, ocorrem mudanças tanto leves quanto bruscas. Além disso, o texto demonstra a importância de tornar os códigos sustentáveis e duráveis.
+Portanto, a profissão de engenharia de software vai além da simples escrita de código; envolve considerar o ciclo de vida completo do software, desde a criação até a descontinuação. O engenheiro é a mente por trás de decisões cuidadosas e assertivas, garantindo a sustentabilidade e a evolução do código.
 
 ## 2 - texto 2:
 "O que exatamente queremos dizer com engenharia de software? O que distingue "engenharia de software" de "programação" ou "ciência da computação"? E por que o Google teria uma perspectiva única a acrescentar ao corpo de literatura anterior sobre engenharia de software escrita ao longo dos últimos 50 anos?
