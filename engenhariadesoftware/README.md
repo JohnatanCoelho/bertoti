@@ -10,7 +10,7 @@ crie um repositório chamado "bertoti" -> pasta "engenhariadesoftware" -> arquiv
 O que é Engenharia de Software? (professor)
 Engenharia envolve programação, tempo, escala e tradeoff.
 
-# Atividade 1 (ANDAMENTO)
+# Atividade 1 
 ## 1 - Programming Over Time
 Nós propomos que a "engenharia de software" engloba não apenas o ato de escrever código, mas também todas as ferramentas e processos que uma organização utiliza para construir e manter esse código ao longo do tempo. Quais práticas uma organização de software pode adotar para manter seu código valioso a longo prazo? Como os engenheiros podem tornar uma base de código mais sustentável e a própria disciplina de enenharia de software mais rigorosa? Não temos respostas definitivas para essas perguntas, mas esperamos que a experiência coletiva do Google ao longo das últimas duas décadas ilumine possíveis caminhos para encontrá-las.
 
