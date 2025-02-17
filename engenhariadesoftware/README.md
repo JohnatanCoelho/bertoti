@@ -26,7 +26,7 @@ Como uma organização precisará se adaptar à medida que evolui.
 Trade-offs e Custos
 Como uma organização toma decisões com base nas lições de Tempo e Mudança e Escala e Crescimento.
 
-**Comentário:** O trecho do livro descreve a profissão de engenheiro de software e como as empresas buscam a evolução e a adaptação dos códigos de seus programas, já que, com o tempo, ocorrem mudanças tanto leves quanto bruscas. Além disso, o texto demonstra a importância de tornar os códigos sustentáveis e duráveis.
+**`Comentário:`** O trecho do livro descreve a profissão de engenheiro de software e como as empresas buscam a evolução e a adaptação dos códigos de seus programas, já que, com o tempo, ocorrem mudanças tanto leves quanto bruscas. Além disso, o texto demonstra a importância de tornar os códigos sustentáveis e duráveis.
 Portanto, a profissão de engenharia de software vai além da simples escrita de código; envolve considerar o ciclo de vida completo do software, desde a criação até a descontinuação. O engenheiro é a mente por trás de decisões cuidadosas e assertivas, garantindo a sustentabilidade e a evolução do código.
 
 ## 2 - texto 2:
@@ -38,7 +38,7 @@ Os termos "programação" e "engenharia de software" têm sido usados de forma i
 
 Ao contrário dessas profissões de engenharia mais estabelecidas, a teoria ou prática atual da engenharia de software não é tão rigorosa. Engenheiros aeronáuticos devem seguir diretrizes e práticas rígidas, porque erros em seus cálculos podem causar danos reais; a programação, no geral, tradicionalmente não seguiu tais práticas rigorosas. Mas, à medida que o software se torna mais integrado em nossas vidas, devemos adotar e confiar em métodos de engenharia mais rigorosos. Esperamos que este livro ajude os outros a verem um caminho em direção a práticas de software mais confiáveis."
 
-**Comentário:** 
+**`Comentário:`** 
 Ao longo do texto, percebemos a diferença entre profissionais de TI e engenheiros de software, cada termo tem um foco e implicações diferentes. As pessoas que estudam TI tendem a trabalhar em empregos escrevendo código, ou seja, como programadores. Já o Engenheiro de software tem um ar mais sério, pois existe uma perspectiva de aplicação e implicação de conhecimento para a construção de algo mais preciso. No entanto, mesmo com essa classificação, de acordo com o texto, ela não é tão rigorosa comparadas a outras profissiões de engenharia. Mas isso não é verdade, com o tempo e a mudança, as aplicações se tornam complexas e escaláveis. 
 Portanto, os engenheiros de software precisam estar atentos a essas mudanças e construirem softwares mais confiáveis. 
 
