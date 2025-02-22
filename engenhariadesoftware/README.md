@@ -66,4 +66,11 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 ![Captura de tela 2025-02-22 170410](https://github.com/user-attachments/assets/f4f7e500-351a-4510-a8fc-8c3c60ec9130)
 
 
+## Atividade 6 - Testes 
+
+***Teste LojaEletronicos***
+
+![Captura de tela 2025-02-22 170410](https://github.com/user-attachments/assets/f4f7e500-351a-4510-a8fc-8c3c60ec9130)
+
+![Captura de tela 2025-02-22 170904](https://github.com/user-attachments/assets/9a8c7250-05eb-4a82-924b-7ffba6976e7c)
 
