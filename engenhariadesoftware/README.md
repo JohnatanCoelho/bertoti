@@ -46,3 +46,7 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 - Java é mais lento que a linguagem C devido a sua complexidade e é uma linguagem longe do baixo nível, porém necessitou a troca de uma aplicação rápida por portabilidade através da JVM.
 - Python usa C para operações aritméticas e matemáticas, pois o python tem a missão de trazer algo mais fácil de desenvolver, porém trocou a complicação por facilidade e rapidez.
 - Banco do Brasil que utilizavam uma arquitetura menos complexa e com menos escabilidade, entretanto com o tempo e o alto volume de transações, ela estava se tornando menos eficiente, pois algumas transações se perdiam. Portanto, a solução foi a troca para uma arquitetura mais complexa para suportar a alta escalabilidade.
+
+## Atividade 4 - Classe UML
+Classe UMl - Loja Eletrônicos 
+![LojaEletronico](https://github.com/user-attachments/assets/cf61940d-86db-4715-b840-575cd923360e)
