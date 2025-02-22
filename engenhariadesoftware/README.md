@@ -48,5 +48,22 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 - Banco do Brasil que utilizavam uma arquitetura menos complexa e com menos escabilidade, entretanto com o tempo e o alto volume de transações, ela estava se tornando menos eficiente, pois algumas transações se perdiam. Portanto, a solução foi a troca para uma arquitetura mais complexa para suportar a alta escalabilidade.
 
 ## Atividade 4 - Classe UML
-Classe UMl - Loja Eletrônicos 
-![LojaEletronico](https://github.com/user-attachments/assets/cf61940d-86db-4715-b840-575cd923360e)
+***Classe UML - Loja Eletrônicos***
+
+![LojaEletronico](https://github.com/user-attachments/assets/4375896e-d3d0-41ac-aef9-063284d970e9)
+
+## Atividade 5 - Java
+***Classe Principal - LojaEletronico***
+
+![Captura de tela 2025-02-22 165824](https://github.com/user-attachments/assets/fda57785-a215-4f5c-98fb-0bdbcf6d882c)
+
+***Classe Cliente***
+
+![Captura de tela 2025-02-22 170005](https://github.com/user-attachments/assets/521b4f50-69d7-4202-811e-4d7e3b8dfec1)
+
+***Classe LojaEletronicoTest***
+
+![Captura de tela 2025-02-22 170410](https://github.com/user-attachments/assets/f4f7e500-351a-4510-a8fc-8c3c60ec9130)
+
+
+
