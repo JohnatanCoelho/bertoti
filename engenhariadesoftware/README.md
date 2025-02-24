@@ -51,7 +51,9 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 ![LojaEletronico](https://github.com/user-attachments/assets/4375896e-d3d0-41ac-aef9-063284d970e9)
 
 ## Atividade 5 - Java
-***Classe Principal - LojaEletronico***
+***Classe Principal - LojaEletronicos***
+_Arquivo: LojaEletronicos.java_
+
 ```ruby
 package loja;
 
@@ -60,56 +62,99 @@ import java.util.List;
 
 public class LojaEletronicos {
 
-	private List<Cliente> clientes = new LinkedList<Cliente>();
+	// Lista de objetos privada criada para armazenar os tipos de celulares da loja
 
-	public void addCliente(Cliente cliente) {
-		clientes.add(cliente);
+	private List<Celular> celulares = new LinkedList<Celular>();
+
+	// Metodo para cadastrar um celular na lista
+
+	public void cadastrarCelular(Celular celular) {
+		celulares.add(celular);
+	}
+	//Buscando o celulares cadastrados
+	public List<Celular> getCelular() {
+		return celulares;
 	}
 
-	public List<Cliente> getClientes() {
-		return clientes;
-	}
-
-	public List<Cliente> buscarClienteNome(String nome) {
-		List<Cliente> encontrados = new LinkedList<Cliente>();
-
-		for (Cliente cliente : clientes) {
-			if (cliente.getNome().equals(nome))
-				encontrados.add(cliente);
+		//Encontrar o celular dentro da lista privada
+	public List<Celular> encontrarCelular(String nome, String so) {
+		List<Celular> encontrados = new LinkedList<Celular>();
+		for(Celular celular: celulares) {
+			if(celular.getNome().equals(nome) && (celular.getSo().equals(so))) {
+				encontrados.add(celular);
+			}
 		}
 		return encontrados;
 
 	}
-
 }
 ```
 
-***Classe Cliente***
+***Classe Celular***
+_Arquivo: Celular.java_
+
 ```ruby
 package loja;
 
-public class Cliente {
+import java.util.List;
 
+public class Celular {
 		private String nome;
-		private String cpf;
+		private String so;
+		private String marca;
+		private String cor;
+		private double preco;
 		
-		public Cliente(String nome, String cpf) {
-			this.nome = nome; 
-			this.cpf = cpf;
+	//	//Criado o metodo construtor, definido como publico
+		public Celular(String nome, String so, String marca, String cor, double preco) {
+			this.nome = nome;
+			this.so = so;
+			this.marca = marca;
+			this.cor = cor;
+			this.preco = preco;
 		}
-		public String getNome(){
+		
+		public String getNome() {
 			return nome;
 		}
+
 		public void setNome(String nome) {
 			this.nome = nome;
 		}
-		public String getCpf(){
-			return cpf;
+		
+		public String getSo() {
+			return so;
 		}
-		public void setCpf(String cpf) {
-			this.cpf = cpf;
+		public void setSo(String so) {
+			this.so = so;
 		}
+		
+		public String getMarca() {
+			return marca;
+		}
+		
+		public void setMarca(String marca) {
+			this.marca = marca;
+		}
+		
+		public String getCor() {
+			return cor;
+		}
+		
+		public void setCor(String cor) {
+			this.cor = cor;
+		}
+		
+		public double getPreco() {
+			return preco;
+		}
+		
+		public void setPreco(double preco) {
+			this.preco = preco;
+		}
+	
 }
+
 ```
 
 ### Atividade 6 - Testes 
@@ -129,14 +174,27 @@ class LojaEletronicosTest {
 	@Test
 	void test() {
 		LojaEletronicos loja = new LojaEletronicos();
-		loja.addCliente(new Cliente("Johnatan", "663.900.963-01"));
 		
-		assertEquals(loja.getClientes().size(), 1 );
+		//Criando objetos para cadastrar 
 		
-		List<Cliente> clienteencontrado = loja.buscarClienteNome("Johnatan");
+		Celular Samsung = new Celular ("S25","Android", "Samsung", "Azul Marinho", 1900.99);
+		Celular Apple = new Celular("Iphone 15 Pro Max","IOS", "Apple", "Branco", 5699.99);
 		
-		assertEquals(clienteencontrado.get(0).getCpf(), "663.900.963-01");
+		//Processo de novos celulares
+		loja.cadastrarCelular(Samsung);
+		loja.cadastrarCelular(Apple);
+		
+		//Verificando o cadastro dos celulares
+		assertEquals(loja.getCelular().size(), 2);
+		
+		List<Celular> encontradosSamsung = loja.encontrarCelular("S25", "Android");
+		List<Celular> encontradosApple = loja.encontrarCelular("Iphone 15 Pro Max", "IOS");
+		
+		assertEquals(encontradosSamsung.get(0).getMarca(), "Samsung");
+		assertEquals(encontradosApple.get(0).getCor(), "Branco");
+			
 	}
 
 }
+
 ```
