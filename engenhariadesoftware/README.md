@@ -71,12 +71,13 @@ public class LojaEletronicos {
 	public void cadastrarCelular(Celular celular) {
 		celulares.add(celular);
 	}
-	//Buscando o celulares cadastrados
+
 	public List<Celular> getCelular() {
 		return celulares;
 	}
 
-		//Encontrar o celular dentro da lista privada
+	// Encontrar o celular dentro da lista privada
+
 	public List<Celular> encontrarCelular(String nome, String so) {
 		List<Celular> encontrados = new LinkedList<Celular>();
 		for(Celular celular: celulares) {
@@ -85,7 +86,6 @@ public class LojaEletronicos {
 			}
 		}
 		return encontrados;
-
 	}
 }
 ```
