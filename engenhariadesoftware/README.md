@@ -55,7 +55,7 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 ***Classe Principal - LojaEletronicos***
 _Arquivo: LojaEletronicos.java_
 
-```ruby
+```java
 package loja;
 
 import java.util.LinkedList;
@@ -94,7 +94,7 @@ public class LojaEletronicos {
 ***Classe Celular***
 _Arquivo: Celular.java_
 
-```ruby
+```java
 package loja;
 
 import java.util.List;
@@ -161,7 +161,7 @@ public class Celular {
 ### Atividade 6 - Testes 
 
 ***Classe LojaEletronicoTest***
-```ruby
+```java
 package loja;
 
 import static org.junit.jupiter.api.Assertions.*;
