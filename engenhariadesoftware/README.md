@@ -1,15 +1,4 @@
 # Aula 1 (14/02/2025)
-Crie um repositório chamado "bertoti" -> pasta "engenhariadesoftware" -> arquivo "readme.md" e faça as seguintes atividades (já vou comentá-las):
- 
-1. Comentar com suas palavras o primeiro trecho do livro Software Engineering at Google, Oreilly. (vou postar abaixo)
- 
-2. Comentar com suas palavras o segundo trecho do livro Software Engineering at Google, Oreilly.(vou postar abaixo)
- 
-3. Listar e explicar 3 exemplos de tradeoffs
-
-O que é Engenharia de Software? (professor)
-Engenharia envolve programação, tempo, escala e tradeoff.
- 
 ### Atividade 1 - Programming Over Time
 *Texto 1:*
 > Nós propomos que a "engenharia de software" engloba não apenas o ato de escrever código, mas também todas as ferramentas e processos que uma organização utiliza para construir e manter esse código ao longo do tempo. Quais práticas uma organização de software pode adotar para manter seu código valioso a longo prazo? Como os engenheiros podem tornar uma base de código mais sustentável e a própria disciplina de enenharia de software mais rigorosa? Não temos respostas definitivas para essas perguntas, mas esperamos que a experiência coletiva do Google ao longo das últimas duas décadas ilumine possíveis caminhos para encontrá-las.
@@ -45,11 +34,11 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 - Python usa C para operações aritméticas e matemáticas, pois o python tem a missão de trazer algo mais fácil de desenvolver, porém trocou a complicação por facilidade e rapidez.
 - Banco do Brasil que utilizavam uma arquitetura menos complexa e com menos escabilidade, entretanto com o tempo e o alto volume de transações, ela estava se tornando menos eficiente, pois algumas transações se perdiam. Portanto, a solução foi a troca para uma arquitetura mais complexa para suportar a alta escalabilidade.
 
-### Atividade 4 - Classe UML
+# 21/02/2025
+### Atividade 4 - Classe UML 
 ***Classe UML - Loja Eletrônicos***
 
-![Classe UML](https://github.com/user-attachments/assets/1676a785-0be5-41f4-9318-edd1633762a3)
-
+![Classe UML](https://github.com/user-attachments/assets/ea3a3c0f-6400-4c66-bf0e-417a22061ad0)
 
 ## Atividade 5 - Java
 ***Classe Principal - LojaEletronicos***
