@@ -48,7 +48,8 @@ Portanto, os engenheiros de software precisam estar atentos a essas mudanças e 
 ### Atividade 4 - Classe UML
 ***Classe UML - Loja Eletrônicos***
 
-![LojaEletronico](https://github.com/user-attachments/assets/4375896e-d3d0-41ac-aef9-063284d970e9)
+![Classe UML](https://github.com/user-attachments/assets/1676a785-0be5-41f4-9318-edd1633762a3)
+
 
 ## Atividade 5 - Java
 ***Classe Principal - LojaEletronicos***
