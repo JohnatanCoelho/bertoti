@@ -218,7 +218,7 @@ public class Main {
 ```
 ***Classe LojaEletronico***
 
-_Arquivo: LojaElettronico.java_
+_Arquivo: LojaEletronico.java_
 
 ```java
 package org.example;
@@ -249,7 +249,7 @@ public class LojaEletronico {
                 + "cor TEXT NOT NULL, \n"
                 + "preco DOUBLE NOT NULL \n"
                 + ");";
-        // Verificação se há a tabela foi criada através da Classe t
+        // Verificação se há a tabela foi criada através da Classe
         try(var conn = DriverManager.getConnection(url);
             var stmt = conn.createStatement()){
             stmt.execute(sql);
