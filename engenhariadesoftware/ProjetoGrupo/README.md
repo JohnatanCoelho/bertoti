@@ -35,7 +35,14 @@ O **ESC-BOT** foi desenvolvido com o objetivo de facilitar o acesso e a visualiz
 
 ## ✅ Funcionalidades Testadas
 
-- 🔍 Listagem de **cursos** presentes na faculdade;  
+- 🔍 Listagem de **cursos** presentes na faculdade;
+  
+  ![listagemCurso](https://github.com/user-attachments/assets/e36e129e-e039-4e1b-87b2-1e19df063faf)
+
+  
 - 🧾 Listagem de **todos os alunos** cadastrados na instituição.
+  
+![listagemAlunos](https://github.com/user-attachments/assets/1a350ed6-ce70-428a-be7d-83c543ff2d6c) 
+
 
 ---
