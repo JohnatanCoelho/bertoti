@@ -95,10 +95,10 @@ public class Sala {
             stmt.setString(1, nome);
             stmt.executeUpdate();
             System.out.println("Curso Cadastrado!");
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-
     }
 
     public void inserirDadosAluno(String nome, Integer idade, Integer id_sala, Integer id_curso){
@@ -118,7 +118,10 @@ public class Sala {
 
     }
 
-    @Tool(name = "Ferramenta para listar os cursos alunos ")
+    /*
+    * Ferramentas que serão acessadas pela IA*/
+
+    @Tool(name = "Ferramenta para listar os alunos ")
     public List<Aluno> listarAlunos(){
         String sql = "SELECT * FROM aluno";
         List<Aluno> alunos = new ArrayList<Aluno>();
@@ -137,8 +140,34 @@ public class Sala {
         }
         return alunos;
     }
+    @Tool(name = "Ferramenta que lista os alunos de acordo com o nome "
+            + "que foi passado pelo usuário")
+    public List<Aluno> listarAlunoPeloNome(String nome){
+        List<Aluno> alunoNome = new ArrayList<>();
+        String sql = "SELECT * FROM aluno where nome = ?";
+        try{
+            Connection conn = conectar();
+            PreparedStatement pst = conn.prepareStatement(sql);
+            pst.setString(1, nome);
+            ResultSet rs = pst.executeQuery();
 
-    @Tool("Ferramenta para listar os cursos da escola")
+            while(rs.next()){
+                Aluno novoAluno = new Aluno();
+               novoAluno.setMatricula(rs.getInt("matricula"));
+               novoAluno.setNome(rs.getString("nome"));
+               novoAluno.setIdade(rs.getInt("idade"));
+               novoAluno.setId_sala(rs.getInt("id_sala"));
+               novoAluno.setId_curso(rs.getInt("id_curso"));
+               alunoNome.add(novoAluno);
+            }
+            return alunoNome;
+        } catch (SQLException e) {
+            System.out.println("Erro ao listar o aluno pelo nome: " + e.getMessage());
+            return null;
+        }
+    }
+
+    @Tool(name = "Ferramenta para listar os cursos da escola")
     public List<Curso> listarCursos(){
         List<Curso> cursos = new ArrayList<>();
 
