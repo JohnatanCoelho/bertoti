@@ -42,6 +42,7 @@ public class CreatineController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Creatine> deletarPorId(@PathVariable Long id){
-
+        creatineServices.deletar(id);
+        return ResponseEntity.ok().build();
     }
 }

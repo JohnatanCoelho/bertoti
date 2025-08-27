@@ -31,4 +31,8 @@ public class CreatineServices {
         return creatineOptional;
     }
 
+    public void deletar(Long id){
+        creatineRepository.delete(creatineRepository.getReferenceById(id));
+    }
+
 }
