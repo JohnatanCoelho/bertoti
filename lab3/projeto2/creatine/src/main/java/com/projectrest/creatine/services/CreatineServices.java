@@ -3,6 +3,7 @@ package com.projectrest.creatine.services;
 import com.projectrest.creatine.entities.Creatine;
 import com.projectrest.creatine.repository.CreatineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
@@ -33,6 +34,17 @@ public class CreatineServices {
 
     public void deletar(Long id){
         creatineRepository.delete(creatineRepository.getReferenceById(id));
+    }
+
+    @Modifying
+    public void atualizar(Long id, Creatine requestBody){
+        Creatine creatine = creatineRepository.getOne(id);
+        creatine.setName(requestBody.getName());
+        creatine.setShortDescription(requestBody.getShortDescription());
+        creatine.setLongDescription(requestBody.getLongDescription());
+        creatine.setPrice(requestBody.getPrice());
+
+        creatineRepository.save(creatine);
     }
 
 }

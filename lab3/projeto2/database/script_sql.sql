@@ -26,15 +26,15 @@ grant select, insert, delete, update on creatinedb.* to user@'localhost';
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `creatinedb`.`creatine` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
-  `long_description` VARCHAR(255) NULL DEFAULT NULL,
-  `name` VARCHAR(255) NULL DEFAULT NULL,
+   `name` TEXT NULL DEFAULT NULL,
+   `short_description` VARCHAR(255) NULL DEFAULT NULL,
+  `long_description` TEXT NULL DEFAULT NULL,
   `price` DOUBLE NULL DEFAULT NULL,
-  `short_description` VARCHAR(255) NULL DEFAULT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 4
 DEFAULT CHARACTER SET = utf8mb4
 COLLATE = utf8mb4_0900_ai_ci;
+
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

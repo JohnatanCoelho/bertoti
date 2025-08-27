@@ -45,4 +45,10 @@ public class CreatineController {
         creatineServices.deletar(id);
         return ResponseEntity.ok().build();
     }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Creatine> atualizar(@PathVariable Long id, @RequestBody Creatine creatine){
+       creatineServices.atualizar(id, creatine);
+       return ResponseEntity.ok().build();
+    }
 }

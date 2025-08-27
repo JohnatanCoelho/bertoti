@@ -12,6 +12,7 @@ public class Creatine {
     private Long id;
     private String name;
     private String shortDescription;
+    @Column(columnDefinition = "Text")
     private String longDescription;
     private Double price;
 
