@@ -5,6 +5,8 @@ import com.projectrest.creatine.repository.CreatineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Optional;
+
 import com.projectrest.creatine.dto.CreatineDTO;
 
 @Service
@@ -18,9 +20,15 @@ public class CreatineServices {
         List<CreatineDTO> dto = result.stream().map(x -> new CreatineDTO(x)).toList();
         return dto;
     }
+
     public void cadastrar(Creatine creatine){
         creatineRepository.save(creatine);
 
+    }
+
+    public Optional<Creatine> buscar(Long id){
+        Optional<Creatine> creatineOptional = creatineRepository.findById(id);
+        return creatineOptional;
     }
 
 }

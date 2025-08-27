@@ -4,6 +4,8 @@ import com.projectrest.creatine.dto.CreatineDTO;
 import com.projectrest.creatine.entities.Creatine;
 import com.projectrest.creatine.services.CreatineServices;
 import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,13 +18,13 @@ public class CreatineController {
     CreatineServices creatineServices;
 
     @GetMapping
-    public List<CreatineDTO> findAll(){
+    public List<CreatineDTO> findAll() {
         List<CreatineDTO> dto = creatineServices.findAll();
         return dto;
     }
 
     @PostMapping
-    public ResponseEntity<Creatine> cadastrarCreatine(@RequestBody Creatine request){
+    public ResponseEntity<Creatine> cadastrarCreatine(@RequestBody Creatine request) {
         Creatine creatineSalvo = new Creatine();
         creatineSalvo.setName(request.getName());
         creatineSalvo.setShortDescription(request.getShortDescription());
@@ -31,5 +33,15 @@ public class CreatineController {
 
         creatineServices.cadastrar(creatineSalvo);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/{id}")
+    public Optional<Creatine> buscarPorId(@PathVariable Long id) {
+        return creatineServices.buscar(id);
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Creatine> deletarPorId(@PathVariable Long id){
+
     }
 }
