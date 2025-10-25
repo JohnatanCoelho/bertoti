@@ -15,14 +15,14 @@ public class CreatineDTO {
     private Long id;
     private String name;
     private String shortDescription;
-    private String longDescription;
+    private String image;
     private Double price;
 
     public CreatineDTO(Creatine creatine){
         id = creatine.getId();
+        image = creatine.getImage();
         name = creatine.getName();
         shortDescription = creatine.getShortDescription();
-        longDescription = creatine.getLongDescription();
         price = creatine.getPrice();
     }
 }

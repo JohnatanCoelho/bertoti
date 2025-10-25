@@ -14,10 +14,10 @@ public class Creatine {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(columnDefinition = "Text")
+    private String image;
     private String name;
     private String shortDescription;
-    @Column(columnDefinition = "Text")
-    private String longDescription;
     private Double price;
 
 }

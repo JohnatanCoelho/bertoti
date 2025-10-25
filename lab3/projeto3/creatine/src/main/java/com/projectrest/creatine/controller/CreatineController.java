@@ -9,6 +9,7 @@ import com.projectrest.creatine.dto.CreatineDTO;
 
 import java.util.List;
 
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/creatines")
 public class CreatineController {

@@ -4,7 +4,6 @@ import com.projectrest.creatine.dto.CreatineDTO;
 import com.projectrest.creatine.entities.Creatine;
 import com.projectrest.creatine.repository.CreatineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.ListFactoryBean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -40,8 +39,8 @@ public class CreatineService {
         Creatine creatine = creatineRepository.getOne(id);
         creatine.setName(creat.getName());
         creatine.setShortDescription(creat.getShortDescription());
-        creatine.setLongDescription(creat.getLongDescription());
         creatine.setPrice(creat.getPrice());
+        creatine.setImage(creat.getImage());
         creatineRepository.save(creatine);
         CreatineDTO DTO = new CreatineDTO(creatine);
         return DTO;
