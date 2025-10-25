@@ -1,0 +1,23 @@
+h1{
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.form-group{
+  width: 500px;
+  margin: auto;
+  align-items: center;
+}
+
+input{
+  margin-bottom: 2%;
+  padding: 25px;
+}
+
+input[type="button"]{
+  width: 170px;
+  padding: 20px;
+  margin-left: 50px;
+}

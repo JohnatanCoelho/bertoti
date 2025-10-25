@@ -1,0 +1,16 @@
+<div class="container mt-4">
+  <div class="row">
+<div class="card" style="width: 22rem;" *ngFor="let c of creatines">
+  <div class="card-body">
+    <img class="card-img-top" src={{c.image}}>
+
+    <h5 class="card-title">{{c.name}}</h5>
+
+    <p class="card-text">{{c.shortDescription}}</p>
+     <a class="btn btn-primary">R$ {{c.price}}</a>
+     <a class="btn btn-danger" style="margin-left: 8px;" (click)="deletar(c.id)">Deletar</a>
+     <a class="btn btn-warning" style="margin-left: 8px; color: white;">Atualizar</a>
+  </div>
+</div>
+
+

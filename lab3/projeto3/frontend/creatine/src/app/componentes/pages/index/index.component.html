@@ -1,0 +1,10 @@
+<h1  class="h1">CADASTRO</h1>
+<form class="form-group">
+  <input type="text" name="image" class="form-control"  placeholder="image" [(ngModel)]="creatine.image">
+  <input type="text" class="form-control" placeholder="Nome" name="nome" [(ngModel)]="creatine.name">
+  <input type="text" class="form-control" placeholder="Curta Descrição" name="shortDesc" [(ngModel)]="creatine.shortDescription">
+  <input type="number" class="form-control" placeholder="Preco" name="price" [(ngModel)]="creatine.price">
+
+  <input type="button" value="Cancelar" class="btn btn-secondary">
+  <input type="button" value="Cadastrar" class="btn btn-primary" (click)="cadastrar()">
+</form>
