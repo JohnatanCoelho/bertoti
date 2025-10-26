@@ -1,4 +1,4 @@
-<h1  class="h1">CADASTRO</h1>
+<h1  class="h1">Formulário</h1>
 <form class="form-group">
   <input type="text" name="image" class="form-control"  placeholder="image" [(ngModel)]="creatine.image">
   <input type="text" class="form-control" placeholder="Nome" name="nome" [(ngModel)]="creatine.name">
@@ -6,5 +6,27 @@
   <input type="number" class="form-control" placeholder="Preco" name="price" [(ngModel)]="creatine.price">
 
   <input type="button" value="Cancelar" class="btn btn-secondary">
+  <input type="button" value="Alterar" class="btn btn-warning" (click)="editar()">
   <input type="button" value="Cadastrar" class="btn btn-primary" (click)="cadastrar()">
 </form>
+
+<table class="table table-dark" *ngIf="tabelaView">
+  <thead>
+    <tr>
+      <th>*</th>
+      <th>Nome</th>
+      <th>Curta Descrição</th>
+      <th>Preco</th>
+      <th>Selecionar</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr *ngFor="let c of creatines; let i = index">
+        <th>{{i+1}}</th>
+        <th>{{c.name}}</th>
+        <th>{{c.shortDescription}}</th>
+        <th>{{c.price}}</th>
+        <th><button class="btn btn-success" (click)="selecionar(i)">Selecionar</button></th>
+      </tr>
+    </tbody>
+</table>

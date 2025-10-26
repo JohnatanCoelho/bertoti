@@ -7,10 +7,11 @@
     <h5 class="card-title">{{c.name}}</h5>
 
     <p class="card-text">{{c.shortDescription}}</p>
+    <div class="d-flex flex-column mt-auto">
      <a class="btn btn-primary">R$ {{c.price}}</a>
-     <a class="btn btn-danger" style="margin-left: 8px;" (click)="deletar(c.id)">Deletar</a>
-     <a class="btn btn-warning" style="margin-left: 8px; color: white;">Atualizar</a>
+     <a class="btn btn-danger" (click)="deletar(c.id)">Deletar</a>
   </div>
+</div>
 </div>
 
 

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, Observer } from 'rxjs';
 import { Creatine } from '../model/Creatine';
 import { CreatineDTO } from '../model/CreatineDTO';
 
@@ -15,7 +15,7 @@ private url:string = "http://localhost:8080/creatines";
 
   constructor(private http:HttpClient) { }
 
-  selecionar():Observable<Creatine[]>{
+  listar():Observable<Creatine[]>{
     return this.http.get<Creatine[]>(this.url);
   }
 
@@ -25,5 +25,9 @@ private url:string = "http://localhost:8080/creatines";
 
   deletar(id:number):Observable<Creatine>{
     return this.http.delete<Creatine>(`${this.url + "/" + id}`);
+  }
+
+  alterar(obj:Creatine):Observable<Creatine>{
+    return this.http.put<Creatine>(`${this.url + "/" + obj.id}`, obj)
   }
 }

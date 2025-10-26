@@ -17,7 +17,14 @@ input{
 }
 
 input[type="button"]{
-  width: 170px;
+  width: 120px;
   padding: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
+  color: white;
+}
+
+.table{
+  width: 80%;
+  text-align: center;
+  margin: 40px auto;
 }
