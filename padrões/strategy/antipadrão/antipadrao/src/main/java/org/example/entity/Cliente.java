@@ -1,8 +1,6 @@
 package org.example.entity;
 
-public abstract class Cliente {
+public class Cliente {
 
-    protected boolean emprestimo = false;
-
-    public abstract void emprestar();
+    public void emprestar(){};
 }
