@@ -6,6 +6,6 @@
 
 A herança é um antipadrão, pois a necessidade de duplicação de código, gerando sempre o polimorfismo.
 
-<img width="500" height="500" alt="antipadrão strategy" src="https://github.com/user-attachments/assets/50b9c60b-cfd0-458e-a609-f2936422602a" />
+<img width="800" height="800" alt="antipadrão strategy" src="https://github.com/user-attachments/assets/ae6c27be-5326-4599-82c0-f0edad14c223" />
 
 #### Padrão
