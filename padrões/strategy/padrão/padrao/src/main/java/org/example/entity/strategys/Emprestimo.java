@@ -1,4 +1,4 @@
-package org.example.entity.interfaces;
+package org.example.entity.strategys;
 
 public interface Emprestimo {
 
