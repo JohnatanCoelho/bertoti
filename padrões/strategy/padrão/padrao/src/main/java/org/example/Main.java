@@ -7,7 +7,7 @@ import org.example.entity.strategys.Proibido;
 public class Main {
     public static void main(String[] args) {
 
-        Cliente joao = new Cliente("João");
+        Cliente joao = new Cliente();
 
         // Permitindo empréstimo
         joao.setEmprestimo(new Permitido());

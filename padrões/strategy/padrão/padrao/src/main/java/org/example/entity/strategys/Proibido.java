@@ -3,9 +3,8 @@ package org.example.entity.strategys;
 public class Proibido implements Emprestimo{
 
     @Override
-    public boolean emprestar(){
-        System.out.println("Empréstimo não permitido!");
-        return false;
+    public void emprestar(){
+        System.out.println("Empréstimo não permitido para o cliente!");
     }
 
     @Override

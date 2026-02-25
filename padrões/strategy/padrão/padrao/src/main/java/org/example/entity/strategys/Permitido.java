@@ -3,9 +3,8 @@ package org.example.entity.strategys;
 public class Permitido implements Emprestimo{
 
     @Override
-    public boolean emprestar(){
-        System.out.println("Empréstimo permitdo!");
-        return true;
+    public void emprestar(){
+        System.out.println("Empréstimo permitido para o cliente!");
     }
 
     @Override
