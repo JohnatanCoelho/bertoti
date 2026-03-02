@@ -1,8 +1,6 @@
 ## 3º SEMESTRE
-<center>
-<img src="https://github.com/user-attachments/assets/1fc50d6e-fdb0-4552-9cbc-ae5bb1720539" width="50" height="50"></br>
-Johnatan Coelho De Jesus Souza
-</center>
+
+## PROJETO DATASKILL
 
 ### DESCRIÇÃO DO PROJETO
 
