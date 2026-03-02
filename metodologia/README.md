@@ -14,7 +14,7 @@ O projeto DataSkill é uma plataforma semelhante ao Linkedin interno que permite
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="50"> | Framework CSS utilizado para estilização da aplicação, garantindo responsividade e um design mais moderno e organizado.|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="50">  | Sistema de Gerenciamento de Banco de Dados (SGBD) utilizado para armazenamento, gerenciamento e organização dos dados da aplicação.|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="50"> |Ferramenta utilizada para documentação, visualização e testes das APIs REST, facilitando a comunicação e entendimento dos endpoints do sistema.|
-|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50">| Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50">| Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"> |Ferramenta utilizada para teste de endpoints da aplicação.|
 
 ### CONTRIBUIÇÕES INDIVIDUAIS
