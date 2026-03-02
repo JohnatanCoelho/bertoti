@@ -1,7 +1,8 @@
 ## 3º SEMESTRE
-<center></center>
-<center>Johnatan Coelho De Jesus Souza</center>
-<center></center>
+<center>
+<img src="https://github.com/user-attachments/assets/1fc50d6e-fdb0-4552-9cbc-ae5bb1720539" width="50" height="50"></br>
+Johnatan Coelho De Jesus Souza
+</center>
 
 ### DESCRIÇÃO DO PROJETO
 
