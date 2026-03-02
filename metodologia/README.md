@@ -1,4 +1,7 @@
-## TG - 3º SEMESTRE
+## 3º SEMESTRE
+<center></center>
+<center>Johnatan Coelho De Jesus Souza</center>
+<center></center>
 
 ### DESCRIÇÃO DO PROJETO
 
