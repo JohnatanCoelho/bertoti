@@ -1,8 +1,6 @@
-## 3º SEMESTRE
+# Johnatan Coelho De Jesus Souza
 
-## PROJETO DATASKILL
-
-### DESCRIÇÃO DO PROJETO
+## PROJETO 2025-2 (3º Semestre)
 
 O projeto DataSkill é uma plataforma semelhante ao Linkedin interno que permite os colaboradores da empresa Altave cadastrarem suas competências (soft e hard skills), experiências e certificados. O objetivo é facilitar a gestão e a busca de talentos dentro da empresa Altave, conectando perfis e competências de forma eficiente.
 
