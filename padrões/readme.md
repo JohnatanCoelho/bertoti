@@ -8,4 +8,4 @@ A herança é um antipadrão, pois a necessidade de duplicação de código, ger
 <img width="800" height="800" alt="antipadrão strategy" src="https://github.com/user-attachments/assets/ae6c27be-5326-4599-82c0-f0edad14c223" />
 
 #### Padrão
-<img width="800" height="800" alt="antipadrão strategy" src="https://github.com/user-attachments/assets/22c6fc02-8b3f-42a3-ac04-754a5f00cb41" />
+<img width="800" height="800" alt="antipadrão strategy" src="https://github.com/user-attachments/assets/a8f75aa4-adff-4b99-a500-45fb56433f3c" />
