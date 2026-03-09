@@ -10,6 +10,7 @@ Sou um desenvolvedor back-end, atualmente cursando Técnologo em Banco de Dados 
 - **Back-End:** Java, Spring Boot e construção de API Rest
 - **Front-End:** Angular, Vues.js, HTML, CSS e JavaScript
 - **Banco de Dados:** MySQL, Oracle Database e Postgres SQL
+- **Controle de Versão:** Git e GitHub
 
 ## PROJETO 2025-2 (3º Semestre)
 
