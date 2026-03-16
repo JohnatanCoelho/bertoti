@@ -14,8 +14,14 @@ Sou um desenvolvedor back-end, atualmente cursando Técnologo em Banco de Dados 
 
 ## PROJETO 2025-2 (3º Semestre)
 
-### O Problema
+### O PROBLEMA
 O projeto DataSkill é uma plataforma semelhante ao Linkedin interno que permite os colaboradores da empresa Altave cadastrarem suas competências (soft e hard skills), experiências e certificados. O objetivo é facilitar a gestão e a busca de talentos dentro da empresa Altave, conectando perfis e competências de forma eficiente.
+
+### SOLUÇÃO ENTREGUE PELA EQUIPE 
+Uma
+### REPOSITÓRIO
+
+[Repositorio projeto 2025-2 DataSkill](https://github.com/DataTechApi/DataSkill)
 
 ### TECNOLOGIAS
 
@@ -32,10 +38,15 @@ O projeto DataSkill é uma plataforma semelhante ao Linkedin interno que permite
 
 ### CONTRIBUIÇÕES INDIVIDUAIS
 
-- Desenvolvimento da interface web utilizando o framework Angular, focando na organização de componenetes e experiência do usuário.
+- Desenvolvimento da interface web utilizando o framework Angular, focando na organização de componentes e experiência do usuário.
 
 - Implementação de funcionalidades backend com Java e Spring Boot, realizando integração com o banco de dados MySQL.
 
 - Contribuição na modelagem do banco de dados, auxiliando na estruturação das tabelas e relacionamentos.
 
 - Criação de protótipos e esboços das telas do sistema utilizando a ferramenta Figma, contribuindo para o planejamento e organização da interface da aplicação.
+
+### HARD SKILL
+
+
+
