@@ -15,10 +15,13 @@ Sou um desenvolvedor back-end, atualmente cursando Técnologo em Banco de Dados 
 ## PROJETO 2025-2 (3º Semestre)
 
 ### O PROBLEMA
-O projeto DataSkill é uma plataforma semelhante ao Linkedin interno que permite os colaboradores da empresa Altave cadastrarem suas competências (soft e hard skills), experiências e certificados. O objetivo é facilitar a gestão e a busca de talentos dentro da empresa Altave, conectando perfis e competências de forma eficiente.
+
+A empresa Altave necessitava de uma plataforma para centralizar e visualizar informações de seus colaboradores, como habilidades, competências, certificações, formação acadêmica e experiências, com o objetivo de facilitar a realocação interna e identificação de oportunidades.
 
 ### SOLUÇÃO ENTREGUE PELA EQUIPE 
-Uma
+
+Desenvolvimento de uma plataforma interna, semelhante ao linkedin interno, que permite aos colaboradores cadastrarem suas competências (hard e soft skills), experiências, certificações e formações. Além disso, gestores podem adicionar recomendações e avaliações a seus colaboradores, contribuindo para uma visão mais completa do perfil profissional. A solução tem como objetivo otimizar a gestão de talentos, facilitando a identificação de profissionais com competências específicas e promovendo conexões eficientes dentro da empresa.
+
 ### REPOSITÓRIO
 
 [Repositorio projeto 2025-2 DataSkill](https://github.com/DataTechApi/DataSkill)
@@ -38,15 +41,12 @@ Uma
 
 ### CONTRIBUIÇÕES INDIVIDUAIS
 
-- Desenvolvimento da interface web utilizando o framework Angular, focando na organização de componentes e experiência do usuário.
+#### FRONT-END && BANCO DE DADOS
 
-- Implementação de funcionalidades backend com Java e Spring Boot, realizando integração com o banco de dados MySQL.
+Contribui para o desenvolvimento da interface web utilizando o framework Angular, focando na organização de componentes e experiência do usuário:
 
-- Contribuição na modelagem do banco de dados, auxiliando na estruturação das tabelas e relacionamentos.
-
+- Desenvolvimento das telas de login, cadastro de colaboradores e perfil do colaborador;
+- Implementação da funcionalidade de cadastro de colaboradores, com controle de acesso para perfis de diretores e supervisores;
+- Integração com o back-end por meio de requisições HTTP, consumindo APIs REST;
 - Criação de protótipos e esboços das telas do sistema utilizando a ferramenta Figma, contribuindo para o planejamento e organização da interface da aplicação.
-
-### HARD SKILL
-
-
-
+- Contribuição na modelagem do banco de dados, auxiliando na estruturação das tabelas e relacionamentos;
