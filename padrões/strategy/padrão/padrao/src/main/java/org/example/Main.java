@@ -1,20 +1,25 @@
 package org.example;
 
-import org.example.entity.Cliente;
-import org.example.entity.strategys.Permitido;
-import org.example.entity.strategys.Proibido;
+import org.example.entity.Pagamento;
+import org.example.entity.strategys.Boleto;
+import org.example.entity.strategys.Cartao;
+import org.example.entity.strategys.Pix;
 
 public class Main {
     public static void main(String[] args) {
 
-        Cliente joao = new Cliente();
+        Pagamento pagamento = new Pagamento(new Pix());
 
-        // Permitindo empréstimo
-        joao.setEmprestimo(new Permitido());
-        joao.chamarEmprestimo();
+        // Pagamento em PIX
+        pagamento.realizarPagamento(30);
 
-        // Negando empréstimo
-        joao.setEmprestimo(new Proibido());
-        joao.chamarEmprestimo();
+        // Pagamento em Cartão
+        pagamento.setFormaDePagamento(new Cartao());
+        pagamento.realizarPagamento(50);
+
+        // Pagamento em Boleto
+        pagamento.setFormaDePagamento(new Boleto());
+        pagamento.realizarPagamento(75);
+
     }
 }
