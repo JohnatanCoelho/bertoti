@@ -50,3 +50,13 @@ Contribui para o desenvolvimento da interface web utilizando o framework Angular
 - Integração com o back-end por meio de requisições HTTP, consumindo APIs REST;
 - Criação de protótipos e esboços das telas do sistema utilizando a ferramenta Figma, contribuindo para o planejamento e organização da interface da aplicação.
 - Contribuição na modelagem do banco de dados, auxiliando na estruturação das tabelas e relacionamentos;
+
+### HARD SKILLS
+
+- **Angular:** Desenvolvimento de componentes reutilizavéis e ajuste na interface conforme as especificações do cliente, incluindo alteração em funcionalidades (como cadastro externo/interno), além da implementação de listagem e exclusão de colaboradores, realizando a integração com o backend por meio de requisições HTTP.
+
+### SOFT SKILLS
+
+- **Comunicação:** participação ativa em reuniões do projeto para definição de tarefas, realização de brainstorming e tomada de descisões técnicas. Utilização de boas práticas de comunicação, incluindo padronização de commits e compartilhamento contínuo de atualizações com a equipe.
+
+- **Aprendizado contínuo:** disposição para aprender o framework Angular para criação da interface gráfica e funcionalidades do projeto, como construção de componentes, utilização de diretivas e configuração de cadastro dos funcionários. Além disso, aprendizado no desenvolvimento de APIs REST com Spring Boot, abrangendo mapeamento de entidades, criação de repositórios, serviços e controladores seguindo o padrão MVC.
