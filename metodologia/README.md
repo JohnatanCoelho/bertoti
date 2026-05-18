@@ -65,3 +65,7 @@ Com o versionamento podemos ter um melhor controle, rastreabilidade e facilidade
 - **Comunicação:** participação ativa em reuniões do projeto para definição de tarefas, realização de brainstorming e tomada de descisões técnicas. Utilização de boas práticas de comunicação, incluindo padronização de commits e compartilhamento contínuo de atualizações com a equipe.
 
 - **Aprendizado contínuo:** disposição para aprender o framework Angular para criação da interface gráfica e funcionalidades do projeto, como construção de componentes, utilização de diretivas e configuração de cadastro dos funcionários. Além disso, aprendizado no desenvolvimento de APIs REST com Spring Boot, abrangendo mapeamento de entidades, criação de repositórios, serviços e controladores seguindo o padrão MVC.
+
+- **Adaptabilidade:** diante às mudanças de requisitos do cliente havia a necessidade de se adaptar aos ajustes e reintegração com novos caminhos para o desenvolvimento do projeto. 
+
+- **Pensamento analítico:** capacidade de analisar o problema proposto pelo cliente e propor soluções estruturadas para as interfaces da plataforma. 
