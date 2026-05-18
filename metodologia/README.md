@@ -55,9 +55,10 @@ Contribui para o desenvolvimento da interface web utilizando o framework Angular
 
 - **Angular:** Desenvolvimento de componentes reutilizavéis e ajuste na interface conforme as especificações do cliente, incluindo alteração em funcionalidades (como cadastro externo/interno), além da implementação de listagem e exclusão de colaboradores, realizando a integração com o backend por meio de requisições HTTP.
 
-- **Integração com backend:** Compreendi o funcionamento da comunicação entre front-end e back-end, trabalhando com requisições HTTP e integração de APIs. 
+- **Integração com backend:** Compreensão e aplicação do fluxo de comunicação entre front-end e back-end, utilizando requisições HTTP para integração de funcionalidades. Participação na implementação e consumo de API Rest, realizando o tratamento de dados recebidos e enviados entre as camadas da aplicação.
 
-- **Controle de Versão (GitHub e Git):**  Colaboração com as regras de padronização do versionamento de código definidas na documentação, como a estrutura de projeto, commits e branchs.
+- **Controle de Versão (GitHub e Git):**  Utilização de ferramentas de versionamento de código, seguindo padrões definidos na documentação do projeto. Aplicando boas práticas relacionadas a estrutura do projeto, padronização de commits e gerenciamento de branches para desenvolvimento de novas funcionalidades, correções e integrações de código.
+Com o versionamento podemos ter um melhor controle, rastreabilidade e facilidade de manutenção de código.
 
 ### SOFT SKILLS
 
