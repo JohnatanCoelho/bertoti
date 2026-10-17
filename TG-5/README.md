@@ -31,7 +31,32 @@ Criação de uma calculadora científica com operações essenciais e esperadas 
 |------------|------------|
 | <img src="assets/visualg.png" width="50"> | Linguagem portugol utilizada para o desenvolvimento da calculadora |
 |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50">| Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
-|<img src="assets/clickup.png" width="100">| Ferramenta utilizzada para gestão de atividades e criação de Burn Up |
+|<img src="assets/clickup.png" width="50">| Ferramenta utilizada para gestão de atividades e criação de Burn Up |
+
+### CONTRIBUIÇÕES INDIVIDUAIS
+
+- Cálculo de Fatorial: Implementação do algoritmo para multiplicação regressiva de inteiros positivos até 1.
+- Menu de Operações: Criação da estrutura de seleção de opções para navegação do usuário.
+- Ajuste de Código e Correção de Falhas: Padronização da formatação do código e eliminação de bugs.
+
+### HARD SKILLS
+
+- **Lógica de programação**: desenvolvimento de funções, laços de repetição e estrutura condicional; 
+
+- **Controle de Versão (GitHub e Git)**: Gerenciamento do código-fonte por meio de ferramentas de versionamento, estabelecimento de boas práticas de commits e prevenção de conflitos na mesclagem (merge) de branches.
+
+### SOFT SKILLS
+
+- **Trabalho em equipe**: Capacidade de se organizar como time e resolver soluções em conjunto.
+
+- **Comunicação**: Habilidade de transmitir informações de forma clara, garantindo o alinhamento contínuo e a atualização com o time de desenvolvimento.
+
+- **Aprendizado contínuo**: Proatividade na busca por novas ferramentas, conceitos e tecnologias para aprimorar constantemente as competências em programação.
+
+## PROJETO 2024-2 (1º Semestre)
+
+### O PROBLEMA
+
 
 ## PROJETO 2025-2 (3º Semestre)
 
