@@ -35,8 +35,11 @@ Criação de uma calculadora científica com operações essenciais e esperadas 
 
 ### CONTRIBUIÇÕES INDIVIDUAIS
 
+#### BACK-END
 - Cálculo de Fatorial: Implementação do algoritmo para multiplicação regressiva de inteiros positivos até 1.
 - Menu de Operações: Criação da estrutura de seleção de opções para navegação do usuário.
+
+#### TESTES E CORREÇÃO DE FALHAS
 - Ajuste de Código e Correção de Falhas: Padronização da formatação do código e eliminação de bugs.
 
 ### HARD SKILLS
@@ -67,6 +70,54 @@ Desenvolvimento de uma plataforma interna que permite o cadastro de cursos, com 
 
 [Repositório projeto 2025-1 Gerenciador de horários](https://github.com/vp-p/gerenciador-horario-aula/)
 
+### TECNOLOGIAS
+
+| Tecnologia | Utilização |
+|------------|------------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="50"> | Linguagem de programação utilizada para o desenvolvimento do backend da aplicação, responsável pela implementação das regras de negócio e da lógica do sistema.|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="50"> | Sistema de Gerenciamento de Banco de Dados (SGBD) utilizado para armazenamento, gerenciamento e organização dos dados da aplicação. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" width="50"> | Ferramenta de gerenciamento de projeto, atribuição e rastreamento de tarefas | 
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50"> | Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
+
+### CONTRIBUIÇÕES INDIVIDUAIS
+
+#### PRODUCT OWNER (PO)
+
+- Alinhamento com Stakeholders, entendendo suas necessidades, mapeando suas dores, oportunidades e gereciando expectativas que não trazem valor ao produto;
+- Definição de visão e estratégia do produto, garantindo que todos saibam para onde o produto está indo e qual seu objetivo; 
+- Criação de backlog, levantamento de requisitos e documentação; 
+
+#### BACK-END && FRONT-END
+
+- Desenvolvimento dos CRUDs de Professores e Disciplinas, implementação das funcionalidades de cadastro, consulta, edição e remoção de registros no banco de dados;
+- Implementação da Interface Gráfica (JavaFX / Scene Builder), criando  as telas do sistema integrando os layouts FXML às regras de negócio da aplicação;
+
+#### BANCO DE DADOS
+
+- Mapeamento do modelo de dados para garantir o armazenamento organizado e escalável das informações do sistema;
+- Geração dos Scripts de Inicialização (SQL) pronto para execução e provisionamento imediato do ambiente do banco;
+- Definição de permissões de usuários do banco e estabelecimento de políticas de backup para manter o alinhamento e a segurança do time de desenvolvimento;
+
+### HARD SKILLS
+
+- **Back-end com Java**: desenvolvimento do back-end em Java, com persistência de dados em MySQL, implementação de funcionalidades de CRUDs para professores e disciplinas.
+
+- **MySQL**: Criação de tabelas, definição de constraints, chaves primárias e estrangeiras, manipulação de dados com DML (INSERT, DELETE, UPDATE e SELECT) e criação de modelo abordando conceitos de relacionamentos e cardinalidades. 
+
+- **Scene Builder**: desenvolvimento da interface do sistema utilizando a ferramenta Scene Builder, integrando o front-end com o backend, utilizando componentes visuais para criar o produto. 
+
+- **Controle de Versão**: utilização da ferramenta git e git hub para versionamento do nosso código-fonte, implementando estratégias de commits, branches e evitar conflitos de mesclagem. Melhor controle e manutenção do código contra bugs e falhas. 
+
+### SOFT SKILLS 
+
+- **Comunicação:** participação ativa em reuniões do projeto para definição de tarefas, realização de brainstorming e tomada de decisões técnicas. Alinhamento com o cliente, gerenciamento de suas expectativas e definição de visão do produto para o time de desenvolvimento. 
+
+- **Pensamento analítico:** capacidade de analisar o problema proposto pelo cliente e propor soluções estruturadas para a equipe de desenvolvimento; 
+
+- **Trabalho em equipe**: capacidade de trabalhar em conjunto, entendendo suas falhas e sucessos, construindo um caminho livre para melhor desempenho em equipe. 
+
+- **Aprendizado contínuo**: Proatividade na busca por novas ferramentas, conceitos e tecnologias para otmizar processos e gestão do projeto.
+
 ## PROJETO 2025-2 (3º Semestre)
 
 ### O PROBLEMA
@@ -92,7 +143,7 @@ Desenvolvimento de uma plataforma interna, semelhante ao linkedin interno, que p
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="50">  | Sistema de Gerenciamento de Banco de Dados (SGBD) utilizado para armazenamento, gerenciamento e organização dos dados da aplicação.|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" width="50"> |Ferramenta utilizada para documentação, visualização e testes das APIs REST, facilitando a comunicação e entendimento dos endpoints do sistema.|
 |<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50">| Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"> |Ferramenta utilizada para teste de endpoints da aplicação.|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"> | Ferramenta utilizada para teste de endpoints da aplicação.|
 
 ### CONTRIBUIÇÕES INDIVIDUAIS
 
@@ -103,7 +154,7 @@ Contribui para o desenvolvimento da interface web utilizando o framework Angular
 - Desenvolvimento das telas de login, cadastro de colaboradores e perfil do colaborador;
 - Implementação da funcionalidade de cadastro de colaboradores, com controle de acesso para perfis de diretores e supervisores;
 - Integração com o back-end por meio de requisições HTTP, consumindo APIs REST;
-- Criação de protótipos e esboços das telas do sistema utilizando a ferramenta Figma, contribuindo para o planejamento e organização da interface da aplicação.
+- Criação de protótipos e esboços das telas do sistema utilizando a ferramenta Figma, contribuindo para o planejamento e organização da interface da aplicação;
 - Contribuição na modelagem do banco de dados, auxiliando na estruturação das tabelas e relacionamentos;
 
 ### HARD SKILLS
