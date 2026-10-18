@@ -53,10 +53,19 @@ Criação de uma calculadora científica com operações essenciais e esperadas 
 
 - **Aprendizado contínuo**: Proatividade na busca por novas ferramentas, conceitos e tecnologias para aprimorar constantemente as competências em programação.
 
-## PROJETO 2024-2 (1º Semestre)
+## PROJETO 2025-1 (2º Semestre)
 
 ### O PROBLEMA
 
+A instituição Fatec necessitava de uma ferramenta para o gerenciamento de horários dos professores, com um mecanismo para evitar a sobreposição de horários (o mesmo professor com disciplinas diferentes em um mesmo horário). Além disso, a ferramenta deveria permitir a criação das grades curriculares, organizando a estrutura dos cursos com os semestres e suas disciplinas.
+
+### SOLUÇÃO ENTREGUE PELA EQUIPE 
+
+Desenvolvimento de uma plataforma interna que permite o cadastro de cursos, com atribuição de disciplinas e organização por semestres, estruturando a grade curricular. Ademais, a ferramenta possui o gerenciamento de horários com alocação para os professores, evitando choques de horários, definição do posicionamento das aulas e controle do limite de aulas obrigatórias por semana. 
+
+### REPOSITÓRIO
+
+[Repositório projeto 2025-1 Gerenciador de horários](https://github.com/vp-p/gerenciador-horario-aula/)
 
 ## PROJETO 2025-2 (3º Semestre)
 
