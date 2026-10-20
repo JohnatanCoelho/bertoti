@@ -182,7 +182,6 @@ Com o versionamento podemos ter um melhor controle, rastreabilidade e facilidade
 
 A Altave assume o compromisso contratual de prestar manutenções preventivas e corretivas aos seus clientes. No entanto, a distribuição geográfica dos ativos em múltiplas localidades gera grande complexidade logística e operacional. Diante dessa descentralização, torna-se indispensável uma plataforma de gestão centralizada que viabilize o planejamento, o agendamento e o rastreamento do histórico das operações de manutenção.
 
-
 ### SOLUÇÃO ENTREGUE PELA EQUIPE 
 
 Foi desenvolvida uma plataforma web para gestão integrada de manutenção, com controle de acesso baseado em perfis funcionais, garantindo governança e eficiência operacional:
@@ -224,6 +223,15 @@ Foi desenvolvida uma plataforma web para gestão integrada de manutenção, com 
 
 ### HARD SKILLS
 
+- **Back-end Java**: Atuação autônoma no desenvolvimento do back-end da aplicação, incluindo mapeamento de entidades (models), camada de persistência (repositories), implementação de regras de negócio e desenvolvimento de APIs/requisições HTTP para comunicação com o front-end.
 
+- **PostgreSQL**: Atuação autônoma na criação de tabelas, modelagem de relacionamentos, definição de constraints, gerenciamento de usuários com controle de acesso restrito e integração com o back-end.
+
+- **Vue.js**: Atuação autônoma na criação de interfaces interativas e dinâmicas, desenvolvendo telas personalizadas e dashboards de acordo com os perfis de acesso do sistema (Administrador, Supervisor, Planejador e Técnico).
 
 ### SOFT SKILLS
+
+- **Aprendizado contínuo:** disposição para aprender o framework vue.js para criação da interface gráfica e funcionalidades do projeto. Aprimorar habilidades com java para construção do backend e atender toda a lógica construída para o sistema de gerenciamento de manutenções.
+
+- **Gerenciamento de Tempo**: Capacidade de priorizar tarefas, gerenciar prazos com autonomia e organizar o fluxo de trabalho de forma eficiente para garantir entregas pontuais e de alta qualidade.
+
