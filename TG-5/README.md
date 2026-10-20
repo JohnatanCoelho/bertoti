@@ -175,3 +175,55 @@ Com o versionamento podemos ter um melhor controle, rastreabilidade e facilidade
 - **Adaptabilidade:** diante às mudanças de requisitos do cliente havia a necessidade de se adaptar aos ajustes e reintegração com novos caminhos para o desenvolvimento do projeto. 
 
 - **Pensamento analítico:** capacidade de analisar o problema proposto pelo cliente e propor soluções estruturadas para as interfaces da plataforma. 
+
+## PROJETO 2026-1 (4º Semestre)
+
+### O PROBLEMA
+
+A Altave assume o compromisso contratual de prestar manutenções preventivas e corretivas aos seus clientes. No entanto, a distribuição geográfica dos ativos em múltiplas localidades gera grande complexidade logística e operacional. Diante dessa descentralização, torna-se indispensável uma plataforma de gestão centralizada que viabilize o planejamento, o agendamento e o rastreamento do histórico das operações de manutenção.
+
+
+### SOLUÇÃO ENTREGUE PELA EQUIPE 
+
+Foi desenvolvida uma plataforma web para gestão integrada de manutenção, com controle de acesso baseado em perfis funcionais, garantindo governança e eficiência operacional:
+
+- Administrador (ADM): Responsável pelo gerenciamento de contratos, ativos e colaboradores. Possui dashboards interativos com visão analítica dos cadastros e indicadores gerais de manutenção.
+- Supervisor: Atua no monitoramento dos ativos vinculados aos seus contratos de responsabilidade. Dispõe de painéis indicadores (KPIs) para acompanhar o status operacional dos equipamentos (em operação, em alerta, em manutenção ou desativados), além de métricas essenciais como MTBF (Mean Time Between Failures / Tempo Médio Entre Falhas), MTTR (Mean Time To Repair / Tempo Médio de Reparo) e acompanhamento de Ordens de Serviço em atraso.
+- Planejador: Responsável pela programação técnica das manutenções preventivas e corretivas. Emite Ordens de Serviço (OS), aloca técnicos responsáveis, define prazos e analisa o histórico operacional dos ativos.
+- Técnico: Executa as rotinas de campo com base nas informações detalhadas disponibilizadas pelo planejador (como descrição da avaria, localização e prazos de execução), assegurando o encerramento e registro das manutenções.
+
+### REPOSITÓRIO
+
+[Repositório projeto 2026-1 SGM-Sistema Gestão de Manutenções](https://github.com/LegacyTec/4Sem2026-1/)
+
+### TECNOLOGIAS
+
+| Tecnologia | Utilização |
+|------------|------------|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="50"> | Linguagem de programação utilizada para o desenvolvimento do backend da aplicação, responsável pela implementação das regras de negócio e da lógica do sistema.|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="50"> | Framework utilizado para construção do backend, gerenciamento de dependências e criação de APIs REST de forma rápida e estruturada. |
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="50"> | Sistema de Gerenciamento de Banco de Dados (SGBD) utilizado para armazenamento, gerenciamento e organização dos dados da aplicação. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="50" > | Framework de frontend utilizado para o desenvolvimento das interfaces e componentes reutilizáveis do sistema. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="50"> | Framework de estilização utilizado para desenvolvimento web com foco em classes utilitárias de propósito único. |
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50">| Ferramentas utilizadas para controle de versão e hospedagem de código remoto.|
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="50"> | Ferramenta utilizada para teste de endpoints da aplicação.|
+
+### CONTRIBUIÇÕES INDIVIDUAIS
+
+#### BACK-END && BANCO DE DADOS 
+
+- Elaboração do modelo conceitual e lógico de dados para fundamentar a arquitetura da base de dados. 
+
+- Implementação do banco de dados: criação de tabelas e relacionamentos, com definição precisa de chaves primárias (PK), chaves estrangeiras (FK) e restrições de integridades (constraints).
+
+- Desenvolvimento do backend utilizando o padrão de arquitetura MVC (Model-View-Controller). Estruturação e implementação das classes de modelo, persistência de dados pelos repositorys, regras de negócios e endpoints de integração(controllers). 
+
+### DOCUMENTAÇÃO 
+
+- Elaboração da documentação de planejamento das sprints do projeto: a Sprint 1 focou no escopo e requisitos do módulo de gestão de ordens de manutenção; a Sprint 2 contemplou as diretrizes para a construção do Gerenciamento de Contratos; e a Sprint 3 englobou a definição de KPIs, a criação de dashboards analíticos e a consolidação do fluxo de ordens de manutenção. 
+
+### HARD SKILLS
+
+
+
+### SOFT SKILLS
